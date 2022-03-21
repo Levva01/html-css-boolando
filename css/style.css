@@ -44,3 +44,31 @@ img{
     margin-left: 10px;
     display: inline-block;
 }
+
+/* 
+Style description 
+*/
+
+.marca{
+    color: grey;
+    font-size: 10px;
+    display: block;
+}
+
+.tipo{
+    font-size: 12px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 0;
+}
+
+.prezzo{
+    color: red;
+    font-size: 10px;
+}
+
+.prezzo-precedente{
+    text-decoration: line-through;  
+    color: grey;
+    font-size: 10px;
+}
