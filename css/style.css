@@ -13,13 +13,14 @@ html, body{
     max-width: 100%;
 }
 
-/* 
-Clearfix
-*/
-
 .row{
     width: 80%;
     margin: auto;
+    margin-bottom: 20px;
+}
+
+.container{
+    margin-top: 20px;
 }
 
 /* 
@@ -27,10 +28,7 @@ Common
 */
 
 .image{
-    margin-left: 10px;
     max-width: 200px;
-    display: inline-block;
-
 }
 
 img{
@@ -40,4 +38,9 @@ img{
 
 .no-margin{
     margin-left: 0;
+}
+
+.image-description{
+    margin-left: 10px;
+    display: inline-block;
 }
