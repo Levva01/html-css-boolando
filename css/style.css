@@ -29,6 +29,7 @@ Common
 
 .image{
     max-width: 200px;
+    position: relative;
 }
 
 img{
@@ -71,4 +72,37 @@ Style description
     text-decoration: line-through;  
     color: grey;
     font-size: 10px;
+}
+
+.sconto{
+    color: white;
+    font-size: 10px;
+    background-color: red;
+    position:absolute;
+    bottom: 30px;
+    padding: 2px;
+}
+
+.sostenibilita{
+    color: white;
+    background-color: green;
+    position: absolute;
+    font-size: 10px;
+    bottom: 30px;
+    left: 30px;
+    padding: 2px;    
+}
+
+.position-sostenibilita{
+    left: 0;
+}
+
+.wishlist{
+    right: 0;
+    position: absolute;
+    color: black;
+    padding: 2px 6px;
+    top: 10px;
+    background-color: white;
+    font-size: 15px;
 }
